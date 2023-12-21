@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <form>
+
+        <h1><B>Feedback Form</B></h1>
+        <br><br>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Second Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <br><br>
+
+        <label>Gender:</label>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male" required> Male
+        </label>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female" required> Female
+        </label>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="comment">Comment:</label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" required></textarea>
+
+        <br><br>
+
+        <label for="cork">Cork:</label>
+        <select id="cork" name="cork" required>
+            <option value=" "></option>
+            <option value="Manager">Manager</option>
+            <option value="Student">Student</option>
+            <option value="Professor">Professor</option>
+        </select>
+       <br><br>
+
+        <button type="submit">Send Feedback</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
